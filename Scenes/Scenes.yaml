@@ -1,0 +1,27 @@
+
+Scenes:
+  - Name: Panorama
+    Composition:
+      - Base
+  - Name: Closeup
+    Composition:
+      - Base
+      - Closeup
+  - Name: PanoramaSlowdown
+    Composition:
+      - Base
+      - Slowdown
+  - Name: CloseupSlowdown
+    Composition:
+      - Base
+      - Closeup
+      - Slowdown
+  - Name: PanoramaCommonHorizon
+    Composition:
+      - Base
+      - CommonHorizon
+  - Name: CloseupCommonHorizon
+    Composition:
+      - Base
+      - Closeup
+      - CommonHorizon

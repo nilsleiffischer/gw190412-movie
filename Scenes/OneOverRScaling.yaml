@@ -1,0 +1,15 @@
+
+WaveformToVolume:
+  Replace:
+    OneOverRScaling: True
+
+TransferFunctions:
+  - Element: 0
+    TransferFunction:
+      Peaks:
+        FirstPeak:
+          Replace:
+            Position: 1.e-5
+        LastPeak:
+          Replace:
+            Position: 5.e-4

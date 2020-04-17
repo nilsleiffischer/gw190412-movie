@@ -1,0 +1,16 @@
+
+Base:
+  - Base
+  - Datasources
+  - Resolutions/4k
+
+Animation:
+  Replace:
+    FrameRate: 0.5
+
+Replace:
+  CameraShots:
+    - Position: [0., 0., 250.]
+      ViewUp: [0., 1., 0.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 60.

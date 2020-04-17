@@ -1,0 +1,44 @@
+
+Base:
+  - Base
+  - Datasources
+  - Resolutions/4k
+
+Animation:
+  Replace:
+    FreezeTime: 6980.45
+
+Replace:
+  CameraShots:
+    - Position: [-4.6, 3.3, 5.7]
+      ViewUp: [0., 0., 1.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 90.
+
+WaveformToVolume:
+  Replace:
+    Size: 50
+
+VolumeRepresentation:
+  Replace:
+    ScalarOpacityUnitDistance: 1.
+
+Trajectories:
+  - Element: 0
+    Delete: Tail
+  - Element: 1
+    Tail:
+      Delete: Visibility
+      Replace:
+        Opacity: 0.5
+
+Horizons:
+  - Element: 0
+    Delete: Visibility
+  - Element: 1
+    Delete: Visibility
+  - Element: 2
+    Delete: Visibility
+    Representation:
+      Replace:
+        Opacity: 0.5

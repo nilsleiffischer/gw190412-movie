@@ -1,0 +1,13 @@
+
+CameraShots:
+  - Element: 1
+    Replace:
+      Position: [-97.34116545, 70.17618905, 0.]
+
+WaveformToVolume:
+  Replace:
+    RadialScale: 2.5
+
+VolumeRepresentation:
+  Replace:
+    ScalarOpacityUnitDistance: 7.

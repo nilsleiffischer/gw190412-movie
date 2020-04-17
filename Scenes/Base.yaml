@@ -1,0 +1,129 @@
+
+Include:
+  - Datasources
+  - Background/Skybox
+  - Resolutions/High
+
+Animation:
+  Speed: 100
+  Crop: [1000, 8000]
+
+View:
+  OrientationAxesVisibility: False
+
+WaveformToVolume:
+  Size: 120
+  RadialScale: 4
+  InvertRotationDirection: True
+  EllMax: 2
+  ActivationOffset: 10
+  ActivationWidth: 10
+  DeactivationWidth: 10
+  SpatialResolution: 200
+  KeepEveryNthTimestep: 50
+  StoreIndividualModes: False
+  Polarizations: ["Plus"]
+
+VolumeRepresentation:
+  Representation: Volume
+  VolumeRenderingMode: GPU Based
+  Shade: True
+  ScalarOpacityUnitDistance: 5.
+  ColorBy: Plus strain
+
+TransferFunctions:
+  - Field: Plus strain
+    TransferFunction:
+      Peaks:
+        NumPeaks: 10
+        FirstPeak:
+          Position: 0.003
+          Opacity: 0.03
+        LastPeak:
+          Position: 0.06
+          Opacity: 0.5
+        Colormap: Rainbow Uniform
+  - Field: Age
+    TransferFunction:
+      Custom:
+        Points:
+          - Position: 0
+            Opacity: 0
+          - Position: 0
+            Opacity: 0.6
+          - Position: 200
+            Opacity: 0
+          - Position: 300
+            Opacity: 0
+        Colormap:
+          Name: Grayscale
+          Invert: True
+
+Trajectories:
+  - Name: PrimaryObject
+    Tail:
+      LineWidth: 2
+      ColorBy: Age
+      Visibility:
+        Start: 0
+        End: 6930
+        FadeOut:
+          TimeMode: Scene
+          Time: 30
+  - Name: SecondaryObject
+    Tail:
+      LineWidth: 2
+      ColorBy: Age
+      Visibility:
+        Start: 0
+        End: 6980.45
+        FadeOut:
+          TimeMode: Scene
+          Time: 30
+
+CameraShots:
+  - Position: [-11.9, 8.6, 14.8]
+    ViewUp: [0., 0., 1.]
+    FocalPoint: [0., 0., 0.]
+    ViewAngle: 60.
+  - Time: 3500
+    SwingDuration: 20.
+    Position: [-215.,  155., 0.]
+    ViewUp: [0., 0., 1.]
+    FocalPoint: [0., 0., 0.]
+    ViewAngle: 60.
+
+Horizons:
+  - Name: PrimaryHorizon
+    Visibility:
+      Start: 0
+      End: 6980.45
+    Representation:
+      Representation: Surface
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]
+  - Name: SecondaryHorizon
+    Visibility:
+      Start: 0
+      End: 6980.45
+    Representation:
+      Representation: Surface
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]
+  - Name: CommonHorizon
+    Visibility:
+      Start: 6980.45
+      End: 8000
+    Representation:
+      Representation: Surface
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]

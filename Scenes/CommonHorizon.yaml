@@ -1,0 +1,18 @@
+
+Animation:
+  Replace:
+    FreezeTime: 6980.45
+
+Horizons:
+  - Element: 0
+    Delete: Visibility
+  - Element: 1
+    Delete: Visibility
+  - Element: 2
+    Delete: Visibility
+    Representation:
+      Replace:
+        Opacity: 0.5
+
+Replace:
+  Trajectories: []

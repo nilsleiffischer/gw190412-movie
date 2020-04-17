@@ -1,0 +1,40 @@
+
+Trajectories:
+  - Element: 0
+    Replace:
+      Objects:
+        - Arrow:
+            TipRadius: 0.04
+            TipLength: 0.13
+            ShaftRadius: 0.015
+            TipResolution: 100
+            ShaftResolution: 100
+          Representation:
+            AmbientColor: [1., 1., 1.]
+            DiffuseColor: [1., 1., 1.]
+            Opacity: 0.5
+          Glyph:
+            OrientationArray: ['POINTS', 'DimensionfulInertialSpin']
+            ScaleFactor: 3.
+          Visibility:
+            Start: 0
+            End: 6980.45
+  - Append:
+      Name: RingdownObject
+      Objects:
+        - Arrow:
+            TipRadius: 0.04
+            TipLength: 0.13
+            ShaftRadius: 0.015
+            TipResolution: 100
+            ShaftResolution: 100
+          Representation:
+            AmbientColor: [1., 1., 1.]
+            DiffuseColor: [1., 1., 1.]
+            Opacity: 0.5
+          Glyph:
+            OrientationArray: ['POINTS', 'DimensionfulInertialSpin']
+            ScaleFactor: 3.
+          Visibility:
+            Start: 6980.45
+            End: 8000

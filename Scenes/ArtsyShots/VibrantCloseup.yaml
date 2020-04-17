@@ -1,0 +1,9 @@
+
+WaveformToVolume:
+  Replace:
+    Size: 50.
+    RadialScale: 4.
+
+VolumeRepresentation:
+  Replace:
+    ScalarOpacityUnitDistance: 1.2

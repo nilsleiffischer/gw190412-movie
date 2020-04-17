@@ -1,0 +1,20 @@
+
+Base:
+  - Base
+  - Datasources
+  - Resolutions/4k
+
+Animation:
+  Replace:
+    FrameRate: 0.5
+
+WaveformToVolume:
+  Replace:
+    RadialScale: 1.5
+
+Replace:
+  CameraShots:
+    - Position: [-215.,  155., 0.]
+      ViewUp: [0., 0., 1.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 60.
