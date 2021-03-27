@@ -1,7 +1,9 @@
 dist/
 data/
-.vscode/
+Resources/
 Datasources.yaml
+.vscode/
+Adobe Premiere Pro Auto-Save/
 
 # macOS.gitignore
 # ---------------
