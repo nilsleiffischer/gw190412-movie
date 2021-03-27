@@ -20,7 +20,7 @@ detectors on April 12th, 2019 (GW190412).
 - Selected media coverage:
   - https://www.nature.com/articles/d41586-020-01153-7
   - https://www.sciencenews.org/article/gravitational-waves-unevenly-sized-black-holes-ligo-virgo
-  - https://www.aei.mpg.de/2482444/a-signal-like-none-before
+  - https://www.aei.mpg.de/213678/a-signal-like-none-before
   - https://www.ligo.org/detections/GW190412
   - https://www.ligo.caltech.edu/news/ligo20200420
   - https://www.spektrum.de/news/neuartiges-gravitationswellensignal/1725506
