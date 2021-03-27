@@ -14,7 +14,7 @@ detectors on April 12th, 2019 (GW190412).
   [![GW190412 video](http://img.youtube.com/vi/5AkT4bPk-00/0.jpg)](http://www.youtube.com/watch?v=5AkT4bPk-00)
 - More information and images available at:
   https://www.aei.mpg.de/214403/gw190412-binary-black-hole-merger and
-  https://dcc.ligo.org/LIGO-G2000575
+  https://dcc.ligo.org/LIGO-G2000575/public
 - Credit: N. Fischer, H. Pfeiffer, A. Buonanno (Max Planck Institute for
   Gravitational Physics), Simulating eXtreme Spacetimes (SXS) Collaboration
 - Selected media coverage:
